@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navWrapper{
+    width: 100vw;
+    background-color: bisque;
+}
+
+.navBar{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    margin: auto;
+    height: 50px;
+    align-items: center;
+}
+
+.navBar ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.navBar ul li{
+    list-style: none;
+}
+
+.navBar ul{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar button{
+    width: 70px;
+    height: 30px;
+}
+
+.searchInput{
+    display: grid;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.searchInput input{
+    width: 300px;
+    height: 30px;
+}
+
+.image{
+    width: 40vw;
+}
+
+.image img{
+    width: 280px;
+    height: 350px;
+}
+
+.movieBox{
+    width: 280px;
+}
+
+.movieTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieContainer{
+    width: 90vw;
+    display: grid;
+    /* justify-content: space-between; */
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.titleAndRating{
+    display: flex;
+    justify-content: space-between;
+}
+
